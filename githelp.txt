@@ -1,0 +1,24 @@
+------------------------------------------------------------------------
+
+To set-up a linux directory as a git repo:
+
+git init
+git remote add origin <http-link>
+
+
+
+To pull contents from git server:
+
+git pull origin master
+git status (if msg says you're uptodate with master then you succeeded)
+
+
+
+To push contents to git server:
+
+git add *
+git commit -m "my message"
+git push origin master
+git status
+
+------------------------------------------------------------------------
