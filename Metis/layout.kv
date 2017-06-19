@@ -1,0 +1,15 @@
+#:import FadeTransition kivy.uix.screenmanager.FadeTransition
+
+<StartScreen>:
+    name: "start"
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'background.png'
+
+    GridLayout:
+        Button:
+            text: "Login"
+            pos_hint: {'center_x':.5, 'center_y':.5}
+            font_size: 70
